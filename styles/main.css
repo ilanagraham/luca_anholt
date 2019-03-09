@@ -1,0 +1,307 @@
+* {
+  box-sizing: border-box;
+}
+
+/* h1 {
+  font-size: 80px;
+  color:orange;
+} */
+/* .fixedbar {
+  position: fixed;
+text-align: center; */
+
+/*  for scroll thing*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+h1  {
+  font-size: 80px;
+  color: black;
+  text-align: center;
+  /* font-family: sans-serif; */
+  font-family: 'Dokdo', cursive;
+  /* font-family: 'Covered By Your Grace', cursive; */
+  /* margin-top: -5px; */
+  margin-top: 10px;
+margin-bottom: 0;
+}
+
+h2 {
+  color: grey;
+  text-align: center;
+   text-transform: uppercase;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-top: -5px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+body {
+  /* background-image: url("../coconut-tree.jpg");
+  background-repeat: initial; */
+  /* background-color: #e0ffff; */ blue
+  background-color: white;
+}
+
+/* .heading {
+  left: 50%;
+    margin-left: -500px;
+    background:url("../tropics.jpg");
+    width:1000px;
+    height:200px;
+} */
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+ /* margin-left: 220px;
+ margin-top: -10px; */
+ text-align: center;
+
+
+}
+
+nav ul li {
+display: inline;
+/* display: inline-block; */
+/* font-size: 0.9em; */
+text-align: center;
+margin: 0 50px 0 50px;
+
+
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  /* font-family: 'Dokdo', cursive; */
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+
+
+}
+
+nav ul li a:hover {
+  color: orange;
+  text-decoration: none;
+
+}
+
+ .color {
+  color: rgb(169,169,169);
+}
+
+.watermells {
+  /* width: 600px; */
+  display:block;
+  margin-left: auto;
+ margin-right: auto;
+width: 100%;
+
+}
+
+.listen {
+  text-transform: uppercase;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-family: 'Dokdo';
+  font-size: 40px;
+  margin-top: 4px;
+}
+
+.play {
+  margin-left: 50%;
+  margin-bottom: 50%;
+}
+
+/* stuff copied from jsfiddle.net */
+
+.video {
+    width: 100%;
+}
+.wrapper{
+    display:table;
+    width:auto;
+    position:relative;
+    width:100%;
+}
+.playpause {
+    /* background-image:url(http://png-4.findicons.com/files/icons/2315/default_icon/256/media_play_pause_resume.png); */
+    /* background-image: url("../orangeplay.png"); */
+    background-image: url(../greyplay.png);
+    background-repeat:no-repeat;
+    width:30%;
+    height:20%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
+
+div: hover {
+  color: black;
+}
+
+.text {
+  text-transform: uppercase;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  /* font-family: 'Dokdo'; */
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-top: 190px;
+}
+
+.luca {
+
+  font-size: 24px;
+  font-family: sans-serif;
+  margin: 70px;
+}
+
+ /* .pages {
+   padding-top: 400px;
+  margin: 0 300px 300px 300px;
+} */
+
+iframe {
+  margin-top: 40px;
+  margin-left: 400px;
+
+}
+
+.split {
+   height: 100%;
+ width: 50%;
+ font-family: sans-serif;
+ font-size: 22px;
+ /* margin-left: 50px;
+ margin-top: 50px; */
+ /* text-transform: uppercase; */
+ /* font-family: 'Zilla Slab Highlight', cursive; */
+ font-family: 'Inconsolata', monospace;
+ color: #eeeee0;
+}
+
+.left {
+  margin-left: 20px;
+  margin-top:50px;
+ /* background-color: rgb(105,105,105); */
+  padding: 30px;
+  width: 50%;
+  text-align: left;
+
+
+}
+
+.pic {
+  background-image: url(../textureleaf.jpeg);
+width: 45%;
+}
+
+/* Control the right side */
+.right {
+  /* right: 0; */
+  float: right;
+  margin-top: -530px;
+  width: 50%;
+}
+
+/*  styling the media player positions */
+
+.player {
+  margin-top: 90px;
+}
+
+.beatText {
+  margin-top: -500px;
+  margin-right: 150px;
+  padding: 30px;
+  width: 30%;
+  float: right;
+  font-family: 'Inconsolata', monospace;
+  background-image: url(../textureleaf.jpeg);
+  color: #eeeee0;
+  font-size: 20px;
+
+
+
+}
+/*  RESPOSIVENESS */
+/* @media only screen and (max-width: 1255px) {
+
+  nav ul {
+    margin-left: 100px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-size: 35px;
+    color: red;
+    font-family: 'Dokdo', cursive;
+    text-align: center;
+  }
+}
+
+
+  @media only screen and (max-width: 1200px) {
+
+    nav ul {
+      margin-left: 50px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      font-size: 35px;
+      color: pink;
+      font-family: 'Dokdo', cursive;
+      text-align: center;
+    }
+    nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 50px 0 50px;
+  }
+  }
+
+  @media only screen and (max-width: 1000px) {
+
+    nav ul li {
+
+    text-align: center;
+    display:block;
+
+
+    }
+} */
+
+.palm {
+  margin-top: -750px;
+  margin-left: -400px;
+}
+
+.contactback {
+background-image: url(../textureleaf.jpeg);
+}
+/* .hl {
+    background-color: blue; */
+    /* background-image: linear-gradient(to right, blue 0%, #48d1cc); */
+
+/*  light blue 48d1cc*/
+
+/* padding: 9px 0 40px 0; */
+/* padding: 0 50px 75px 100px; */
+/* TRY AND FIX SPACE AT THE TOP BC IDK */
