@@ -115,7 +115,7 @@ width: 100%;
 .backgroundLeaf {
     visibility: hidden;
 }
-/* .playpause {
+.playpause {
 
     background-image: url(../greyplay.png);
     background-repeat:no-repeat;
@@ -129,7 +129,7 @@ width: 100%;
     margin:auto;
     background-size:contain;
     background-position: center;
-} */
+}
 
 div: hover {
   color: black;
