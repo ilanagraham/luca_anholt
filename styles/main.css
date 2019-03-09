@@ -2,20 +2,6 @@
   box-sizing: border-box;
 }
 
-/* h1 {
-  font-size: 80px;
-  color:orange;
-} */
-/* .fixedbar {
-  position: fixed;
-text-align: center; */
-
-/*  for scroll thing*/
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 
 h1  {
   font-size: 80px;
@@ -23,8 +9,7 @@ h1  {
   text-align: center;
   /* font-family: sans-serif; */
   font-family: 'Dokdo', cursive;
-  /* font-family: 'Covered By Your Grace', cursive; */
-  /* margin-top: -5px; */
+
   margin-top: 10px;
 margin-bottom: 0;
 }
@@ -41,19 +26,11 @@ h2 {
 }
 
 body {
-  /* background-image: url("../coconut-tree.jpg");
-  background-repeat: initial; */
-  /* background-color: #e0ffff; */ blue
+
   background-color: white;
 }
 
-/* .heading {
-  left: 50%;
-    margin-left: -500px;
-    background:url("../tropics.jpg");
-    width:1000px;
-    height:200px;
-} */
+
 nav {
   text-align: center;
 }
@@ -136,8 +113,7 @@ width: 100%;
     width:100%;
 }
 .playpause {
-    /* background-image:url(http://png-4.findicons.com/files/icons/2315/default_icon/256/media_play_pause_resume.png); */
-    /* background-image: url("../orangeplay.png"); */
+
     background-image: url(../greyplay.png);
     background-repeat:no-repeat;
     width:30%;
@@ -174,10 +150,7 @@ div: hover {
   margin: 70px;
 }
 
- /* .pages {
-   padding-top: 400px;
-  margin: 0 300px 300px 300px;
-} */
+
 
 iframe {
   margin-top: 40px;
@@ -190,10 +163,7 @@ iframe {
  width: 50%;
  font-family: sans-serif;
  font-size: 22px;
- /* margin-left: 50px;
- margin-top: 50px; */
- /* text-transform: uppercase; */
- /* font-family: 'Zilla Slab Highlight', cursive; */
+
  font-family: 'Inconsolata', monospace;
  color: #eeeee0;
 }
@@ -296,12 +266,3 @@ width: 45%;
 .contactback {
 background-image: url(../textureleaf.jpeg);
 }
-/* .hl {
-    background-color: blue; */
-    /* background-image: linear-gradient(to right, blue 0%, #48d1cc); */
-
-/*  light blue 48d1cc*/
-
-/* padding: 9px 0 40px 0; */
-/* padding: 0 50px 75px 100px; */
-/* TRY AND FIX SPACE AT THE TOP BC IDK */
