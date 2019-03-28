@@ -13,6 +13,8 @@
   /*  */
   margin: 4ex;
   width: 50%;
+  text-transform: uppercase;
+
 }
 
 .iru-tiny-player .song-main-info {
@@ -154,4 +156,17 @@
     margin: 2ex 1.5ex;
     font-size: 1rem;
   }
+}
+
+/*  personal responsiveness*/
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+.iru-tiny-player {
+  width: 100%;
+  margin:0;
+  position: static;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-family: sans-serif;
 }
